@@ -1,1 +1,5 @@
-$dark-wind: #333;
+@import './variables/colors';
+
+.td-base-dark {
+  color: $dark-wind;
+}
