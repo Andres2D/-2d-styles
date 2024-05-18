@@ -1,6 +1,6 @@
 {
   "name": "2d-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A scss based library containing minimalist and cool styles for any JS project.",
   "main": "dist/index.css",
   "scripts": {
