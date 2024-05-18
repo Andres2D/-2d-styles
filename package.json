@@ -2,10 +2,10 @@
   "name": "@2d/styles",
   "version": "1.0.0",
   "description": "A scss based library containing minimalist and cool styles for any JS project.",
-  "main": "index.scss",
+  "main": "dist/index.css",
   "scripts": {
     "build": "sass src/index.scss dist/index.css --style=compressed",
-    "release": "npm version patch && npm publish && git push --follow-tags",
+    "release": "npm publish",
     "prepare": "husky"
   },
   "repository": {
