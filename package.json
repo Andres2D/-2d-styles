@@ -5,7 +5,8 @@
   "main": "index.scss",
   "scripts": {
     "build": "sass src/index.scss dist/index.css --style=compressed",
-    "release": "npm version patch && npm publish && git push --follow-tags"
+    "release": "npm version patch && npm publish && git push --follow-tags",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,9 @@
   },
   "homepage": "https://github.com/Andres2D/-2d-styles#readme",
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.0.11",
     "sass": "^1.77.2"
   }
 }
