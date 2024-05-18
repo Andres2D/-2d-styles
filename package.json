@@ -1,0 +1,30 @@
+{
+  "name": "@2d/styles",
+  "version": "1.0.0",
+  "description": "A scss based library containing minimalist and cool styles for any JS project.",
+  "main": "index.scss",
+  "scripts": {
+    "build": "sass src/index.scss dist/index.css --style=compressed",
+    "release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andres2D/2d-styles.git"
+  },
+  "keywords": [
+    "scss",
+    "js",
+    "styles",
+    "css",
+    "library"
+  ],
+  "author": "Andres2D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andres2D/-2d-styles/issues"
+  },
+  "homepage": "https://github.com/Andres2D/-2d-styles#readme",
+  "devDependencies": {
+    "sass": "^1.77.2"
+  }
+}
