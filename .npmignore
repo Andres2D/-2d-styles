@@ -3,4 +3,4 @@ src/
 .github/
 .husky/
 
-commitlint.config.msj
+commitlint.config.mjs
